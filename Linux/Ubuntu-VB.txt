@@ -1,0 +1,40 @@
+Linux - UBUNTU config for Virtual Box.
+
+Download and install virtual box -
+https://www.virtualbox.org/wiki/Downloads
+
+Download Ubuntu image from here:
+
+https://ubuntu.com/download/desktop
+Ubuntu 24.04.3 LTS
+
+Using VirtualBox install Ubuntu - 4 cpu, 8 mem
+
+
+After Ubuntu installation, install Guest virtual box addons and some packages.
+
+update all present packages
+# sudo apt update
+
+
+# sudo apt install build-essential dkms linux-headers-$(uname -r)
+
+
+Mount VirtualBox addon from VM menu. Go to Devices -> Insert Guest Addons CD image
+then run the following commands
+
+# sudo mkdir -p /mnt/cdrom
+# sudo mount /dev/cdrom /mnt/cdrom
+# cd /mnt/cdrom/
+# sudo ./VBoxLinuxAdditions.run
+# reboot
+
+
+You can install some additional essential packages like:
+# sudo apt install git vim tree
+
+
+Shared folder after above is done/configured.
+in ubuntu vm add your user in this group:
+
+sudo usermod -aG vboxsf <User>
