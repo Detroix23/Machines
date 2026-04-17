@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Run Ollama, open on the LAN with custom ports.
+
+ip="192.168.1.12";
+port="11434";
+host="${ip}:${port}";
+
+if [ -z "$(pgrep ollama)" ];
+then
+	echo "[Ollama] Start, running on ${host}";
+	OLLAMA_HOST="${ip}:${port}" ollama serve;
+
+	echo "[Ollama] End, was running on ${host}";
+
+else
+	echo "[Ollama] Already running on ${host}";
+
+fi
+
