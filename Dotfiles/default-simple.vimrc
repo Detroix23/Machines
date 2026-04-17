@@ -1,4 +1,7 @@
-" VIM Default Detroix23 config
+" default-simple.vimrc
+" By Detroix23.
+"
+" Simple, basic Vim configuration.
 
 " Set to only Vim.
 set nocompatible
