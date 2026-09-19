@@ -1,0 +1,66 @@
+/** IMPORTS **/
+@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+
+/** FONTS **/
+:root {
+    --font-primary: Arial, sans-serif;
+     --font-display: "Hack", Arial, sans-serif;
+    --font-headline: "Hack", Arial, sans-serif;
+    --font-code: "JetBrains Mono", Arial, monospace;
+}
+
+/** CLEANING **/
+/* Remove Unnecessary Buttons */
+form button[aria-label="Send a gift"],
+#channels > ul > li div[aria-label="Create Invite"],
+section > div > div > div[aria-label="Notification Settings"]
+/* (Help) */
+[data-windows=true] a 
+{
+    display: none !important;
+}
+
+[aria-label="Direct Messages"] {
+    & > li > div.interactive_bf202d.interactive__972a0.linkButton__972a0 {
+        display: none;
+        background-color: blue !important;
+    }
+}
+
+
+
+/** DETAILS **/
+
+/* Revert visual refresh server list (below) */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1354502862390038528 */
+:root {
+    --guildbar-avatar-size: 48px !important;
+    --blob-scale: 48;
+    --guildbar-folder-size: var(--guildbar-avatar-size);
+    --folder-blob-scale: var(--blob-scale);
+}
+
+#channels {
+    margin-bottom: 0px;
+}
+
+/* This removes the horizontal padding on Discord members. (this also includes DM's) */
+/* Snippet by nml#7636 */
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .layout-1LjVue { height: 24px }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K svg,
+.membersWrap-3NUR2t .avatar-6qzftW,
+.privateChannels-oVe7HL .avatar-1HDIsL { width: 16px; height: 24px }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .layout-1qmrhw,
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K { height: 20px !important }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K svg[width="40"] { width: 24px; height: 24px; }
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .wrapper-3Un6-K svg[width="32"] { width: 20px; height: 20px; }
+.subText-OGOWMj, .subText-3Sk0zy { display: none }
+.container-2o3qEW, .membersWrap-3NUR2t { overflow: hidden }
+.membersWrap-3NUR2t,
+.scroller-WSmht3 {
+    max-height: 200%;
+    min-height: 160%;
+}
+:is(.membersWrap-3NUR2t, .privateChannels-oVe7HL) .avatarDecoration-2Wb1Au {
+    left: calc((.5 - var(--decoration-to-avatar-ratio))*100%);
+}

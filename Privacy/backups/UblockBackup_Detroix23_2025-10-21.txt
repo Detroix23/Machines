@@ -1,0 +1,44 @@
+{
+  "timeStamp": 1761044688656,
+  "version": "1.66.4",
+  "userSettings": {
+    "uiAccentCustom": true,
+    "uiTheme": "dark",
+    "importedLists": [],
+    "popupPanelSections": 63
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "assets.json",
+    "public_suffix_list.dat",
+    "ublock-badlists",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-unbreak",
+    "ublock-quick-fixes",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "plowe-0"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "https://www.linux.org/pages/download/",
+    "linksae.com",
+    "moz-extension-scheme",
+    "musicvid.org",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "ww01.rockfile.eu",
+    "www.instagram.com",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true\nno-strict-blocking: ct.klclick.com true",
+  "userFilters": "! 4 May 2025 https://www.w3schools.com\n||www.w3schools.com/images/img_academy_up_php_*$image\n||www.w3schools.com/images/img_academy_up_php_*$image\nwww.w3schools.com###upperfeatureshowcase300\n\n! 4 Oct 2025 https://www.curseforge.com\n||www.curseforge.com/images/premium/premium-install.webp$image\nwww.curseforge.com##.client-marketing > h1\nwww.curseforge.com##.client-marketing > p\nwww.curseforge.com##.client-marketing > .btn-primary\n\n! 5 Oct 2025 https://stackoverflow.com\nstackoverflow.com##.ps-relative.js-pinned-left-sidebar.left-sidebar\nstackoverflow.com###sidebar\nstackoverflow.com##.jc-end.d-flex.sm\\:order-first.sm\\:mb12.sm\\:ml0.flex--item.aside-cta.ml12\nstackoverflow.com##.ac-stretch.md\\:fd-column.md\\:mb12.w100.d-flex.js-bottom-notice\nstackoverflow.com##.bottom-share-links.bottom-notice.js-bottom-notice\n\n! 5 Oct 2025 https://www.reddit.com\nwww.reddit.com##div.mt-md\nwww.reddit.com##pdp-right-rail\nwww.reddit.com###right-sidebar-container\nwww.reddit.com###flex-left-nav-container\nwww.reddit.com##.items-center.flex.s\\:pe-xs.pe-0\nwww.reddit.com##span.contents\n\n\n! 12 Oct 2025 https://music.youtube.com\nmusic.youtube.com##ytmusic-guide-section-renderer.ytmusic-guide-renderer.style-scope:nth-of-type(1)\n\n! 21 Oct 2025 https://superuser.com\nsuperuser.com###left-sidebar\nsuperuser.com###sidebar\nsuperuser.com##.jc-end.d-flex.sm\\:order-first.sm\\:mb12.sm\\:ml0.flex--item.aside-cta.ml12\nsuperuser.com##.site-header\nsuperuser.com##.js-help-button.s-topbar--item\nsuperuser.com##.js-gps-track.js-site-switcher-button.s-topbar--item\nsuperuser.com##.js-network-logo.js-gps-track.network-logo.s-topbar--logo\nsuperuser.com##.ac-stretch.md\\:fd-column.md\\:mb12.w100.d-flex.js-bottom-notice\n\n! 21 Oct 2025 https://www.youtube.com\nwww.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(6)\nwww.youtube.com###downloads-entry > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint\nwww.youtube.com###footer\nwww.youtube.com###logo\nwww.youtube.com###voice-search-button\n\n! 21 Oct 2025 https://www.google.com\nwww.google.com##div.o3j99:nth-of-type(6)\nwww.google.com##.qarstb.o3j99\nwww.google.com##.XDyW0e\nwww.google.com##.lJ9FBc.FPdoLc\nwww.google.com##.Ne6nSd.n1xJcf.o3j99\nwww.google.com##div.OBMEnb:nth-of-type(2)\nwww.google.com##.aajZCb > .lJ9FBc\nwww.google.com##.mWcf0e.WzNHm\nwww.google.com##.logo\n\n! Personnal.\n\n! 2023-05-04 https://www.imagetotext.info\n||www.imagetotext.info/web_assets/frontend/img/bg.jpg$image\n||www.imagetotext.info/web_assets/frontend/img/bg.jpg$image\n\n! 2023-06-16 https://lecrabeinfo.net\nlecrabeinfo.net##.langouste_abDetected.langouste_no.langouste_singlePost2.langouste_single.langouste\nlecrabeinfo.net##.langouste_abDetected.langouste_no.langouste_singlePost1.langouste_single.langouste\n\n! 2023-04-27 https://the-sound-of-chads.webnode.fr\n||d1di2lzuh97fh2.cloudfront.net/files/1m/1mh/1mhb7k.png?ph=32caae9cf8$image\n||d1di2lzuh97fh2.cloudfront.net/files/1m/1mh/1mhb7k.png?ph=32caae9cf8$image\n||d1di2lzuh97fh2.cloudfront.net/files/1m/1mh/1mhb7k.png?ph=32caae9cf8$image\n||d1di2lzuh97fh2.cloudfront.net/files/1m/1mh/1mhb7k.png?ph=32caae9cf8$image\nthe-sound-of-chads.webnode.fr##.wnd-free-stripe-link\n\n! 12 Oct 2025 https://www.merriam-webster.com\nwww.merriam-webster.com###definition-right-rail\nwww.merriam-webster.com##ul.sub-nav-item-list.d-xl-flex.sidebar-nav.flex-nowrap.flex-md-row.flex-xl-column.nav\n\n! 21 Oct 2025 https://www.ledauphine.com\nwww.ledauphine.com##.noPrint.S_top.section\nwww.ledauphine.com##.zoneAside\nwww.ledauphine.com##.noPrint.headerTopRight\n||assets.poool.fr/advanced-paywall-frame.html$subdocument\nwww.ledauphine.com##.loadingPub.wrapperPub"
+}

@@ -1,0 +1,78 @@
+! UBlock Detroix23's filters.
+! Protect your attention !
+
+! Site: https://www.w3schools.com
+! Adds, premium.
+||www.w3schools.com/images/img_academy_up_php_*$image
+||www.w3schools.com/images/img_academy_up_php_*$image
+www.w3schools.com###upperfeatureshowcase300
+
+! Site: https://www.curseforge.com
+! Adds, premium.
+||www.curseforge.com/images/premium/premium-install.webp$image
+www.curseforge.com##.client-marketing > h1
+www.curseforge.com##.client-marketing > p
+www.curseforge.com##.client-marketing > .btn-primary
+
+! Site: https://stackoverflow.com
+! Recommendations, sidebars.
+stackoverflow.com##.ps-relative.js-pinned-left-sidebar.left-sidebar
+stackoverflow.com###sidebar
+stackoverflow.com##.jc-end.d-flex.sm\:order-first.sm\:mb12.sm\:ml0.flex--item.aside-cta.ml12
+stackoverflow.com##.ac-stretch.md\:fd-column.md\:mb12.w100.d-flex.js-bottom-notice
+stackoverflow.com##.bottom-share-links.bottom-notice.js-bottom-notice
+
+! Site: https://superuser.com
+superuser.com###left-sidebar
+superuser.com###sidebar
+superuser.com##.jc-end.d-flex.sm\:order-first.sm\:mb12.sm\:ml0.flex--item.aside-cta.ml12
+superuser.com##.site-header
+superuser.com##.js-help-button.s-topbar--item
+superuser.com##.js-gps-track.js-site-switcher-button.s-topbar--item
+superuser.com##.js-network-logo.js-gps-track.network-logo.s-topbar--logo
+superuser.com##.ac-stretch.md\:fd-column.md\:mb12.w100.d-flex.js-bottom-notice
+
+! Site: https://www.reddit.com
+www.reddit.com##div.mt-md
+www.reddit.com##pdp-right-rail
+www.reddit.com###right-sidebar-container
+www.reddit.com###flex-left-nav-container
+www.reddit.com##.items-center.flex.s\:pe-xs.pe-0
+www.reddit.com##span.contents
+
+! Site: https://www.youtube.com
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(6)
+www.youtube.com###downloads-entry > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
+www.youtube.com###footer
+www.youtube.com###logo
+www.youtube.com###voice-search-button
+
+! Site: https://music.youtube.com
+music.youtube.com##ytmusic-guide-section-renderer.ytmusic-guide-renderer.style-scope:nth-of-type(1)
+
+! Site: https://www.google.com
+www.google.com##div.o3j99:nth-of-type(6)
+www.google.com##.qarstb.o3j99
+www.google.com##.XDyW0e
+www.google.com##.lJ9FBc.FPdoLc
+www.google.com##.Ne6nSd.n1xJcf.o3j99
+www.google.com##div.OBMEnb:nth-of-type(2)
+www.google.com##.aajZCb > .lJ9FBc
+www.google.com##.mWcf0e.WzNHm
+www.google.com##.logo
+
+! Tools
+||www.imagetotext.info/web_assets/frontend/img/bg.jpg$image
+||www.imagetotext.info/web_assets/frontend/img/bg.jpg$image
+
+! Informations
+www.merriam-webster.com###definition-right-rail
+www.merriam-webster.com##ul.sub-nav-item-list.d-xl-flex.sidebar-nav.flex-nowrap.flex-md-row.flex-xl-column.nav
+www.ledauphine.com##.noPrint.S_top.section
+www.ledauphine.com##.zoneAside
+www.ledauphine.com##.noPrint.headerTopRight
+||assets.poool.fr/advanced-paywall-frame.html$subdocument
+www.ledauphine.com##.loadingPub.wrapperPub
+! 2023-06-16 https://lecrabeinfo.net
+lecrabeinfo.net##.langouste_abDetected.langouste_no.langouste_singlePost2.langouste_single.langouste
+lecrabeinfo.net##.langouste_abDetected.langouste_no.langouste_singlePost1.langouste_single.langouste
