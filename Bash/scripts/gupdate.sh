@@ -3,7 +3,7 @@
 
 COMMANDS=(
   "apt-get update --assume-yes"
-  "apt-get upgrade -assume-yes"
+  "apt-get upgrade --assume-yes"
   "dnf update --assumeyes"
   "flatpak update --assumeyes"
   "npm -g update"
@@ -12,6 +12,7 @@ COMMANDS=(
   "opam update"
   "opam upgrade"
   "code --update-extensions"
+  "pip install --upgrade pip"
 )
 COLOR_END="\033[0m"
 COLOR_HEADER="\033[1;34m"
