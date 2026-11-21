@@ -12,7 +12,6 @@ COMMANDS=(
   "opam update"
   "opam upgrade"
   "code --update-extensions"
-  "pip install --upgrade pip"
 )
 COLOR_END="\033[0m"
 COLOR_HEADER="\033[1;34m"
