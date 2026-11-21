@@ -1,5 +1,5 @@
 # Unbloat HyperOs
-Redmi Phones and Xiamo OS.
+Redmi Phones and Xiaomi OS.
 
 ## Sources.
 - https://technastic.com/xiaomi-bloatware-list-miui/;
